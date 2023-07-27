@@ -16,4 +16,5 @@ The repository contains the source code of the trained models, along with the tr
 
 ## How to Use This Repository:
 You can use the trained models to make predictions on new data or fine-tune them for specific problems using your own datasets. To initiate the vectorization of your dataset, use the "vectorisations.py" script. This will create our matrix of visual and textual features.
+
 `python vectorisation.py`
