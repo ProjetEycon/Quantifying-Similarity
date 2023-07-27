@@ -10,7 +10,7 @@ from PIL import Image
 import json
 import string
 from unidecode import unidecode
-from ..utils import *
+from .utils import *
 class EYCON(Dataset):
     def __init__(self, lst=lst,train=False, shuffle=True):
         self.data =sorted(lst[:int(len(lst)*1)] if not train  else lst[int(len(lst)*0.8):])
@@ -30,4 +30,4 @@ def caption_parser(path=""):
         legende =legende.translate(str.maketrans('', '', string.punctuation))
         return [legende]
     else:
-        return None
+        return [""]

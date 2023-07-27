@@ -3,8 +3,8 @@ import numpy as np
 import torchvision.transforms as transforms
 import torch
 import torchvision
+import sys,os
 from torch import nn
-from ..utils import *
 from sentence_transformers import SentenceTransformer
 class autoencoder(nn.Module):
     def __init__(self):
