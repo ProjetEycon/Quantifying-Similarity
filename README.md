@@ -14,5 +14,6 @@ The model was trained on a powerful system equipped with an NVIDIA V100-SXM2-32G
 ## Repository Contents
 The repository contains the source code of the trained models, along with the training scripts used to reproduce the results.
 
-## How to Use This Repository
-You can use the trained models to make predictions on new data or fine-tune them on your own datasets for specific problems.
+## How to Use This Repository:
+You can use the trained models to make predictions on new data or fine-tune them for specific problems using your own datasets. To initiate the vectorization of your dataset, use the "vectorisations.py" script. This will create our matrix of visual and textual features.
+`python vectorisation.py`
