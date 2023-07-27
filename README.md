@@ -18,3 +18,8 @@ The repository contains the source code of the trained models, along with the tr
 You can use the trained models to make predictions on new data or fine-tune them for specific problems using your own datasets. To initiate the vectorization of your dataset, use the "vectorisations.py" script. This will create our matrix of visual and textual features.
 
 `python vectorisation.py`
+
+
+Once the vectorization is completed, you will receive an output matrix of size: (number of images, 2560). Use the "similarity.py" script to calculate, for each row of the matrix, the row with the minimum Euclidean distance.
+
+`python similarity.py`
