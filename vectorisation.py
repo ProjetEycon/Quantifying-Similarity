@@ -4,6 +4,7 @@ from Data_set.utils import *
 from tqdm import tqdm
 import numpy as np
 visual_modal=autoencoder().to(device=device)
+visual_modal.load_state_dict(torch.load("Model weight/visual_model"))
 dataset=EYCON()
 textual_model=transformeur()
 vectors=np.zeros((len(dataset),1536+1024))
