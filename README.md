@@ -1,4 +1,5 @@
 # Quantifying-Similarity
+![Alt text](https://eycon.hypotheses.org/files/2022/02/cropped-SHDGR__GR_2_K_247_16_07nkn6__0001.jpg)
 ## Introduction:
 
 Welcome to the GitHub repository of the Eycon project - a platform for historical image research and analysis based on similarity calculation!
